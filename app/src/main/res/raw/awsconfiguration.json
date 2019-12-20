@@ -1,0 +1,41 @@
+{
+  "UserAgent": "MobileHub/1.0",
+  "Version": "1.0",
+  "CredentialsProvider": {
+    "CognitoIdentity": {
+      "Default": {
+        "PoolId": "ap-southeast-1:c5b6aa9e-3c78-4877-8a19-6e51345a28f4",
+        "Region": "ap-southeast-1"
+      }
+    }
+  },
+  "IdentityManager": {
+    "Default": {}
+  },
+  "CognitoUserPool": {
+    "Default": {
+      "PoolId": "ap-southeast-1_IuKdz4bAI",
+      "AppClientId": "5ltkdjk74eo06ob8qeh8stm64u",
+      "AppClientSecret": "mk85i90qclq8vgpfbq8ouddsk696342ll42bivj5vn9o7cmgi5r",
+      "Region": "ap-southeast-1"
+    }
+  },
+  "ContentManager": {
+    "Default": {
+      "Bucket": "videostreaming-hosting-mobilehub-169249611",
+      "Region": "ap-southeast-1",
+      "CloudFrontURL": "https://d1lqoh4s5vvifj.cloudfront.net"
+    }
+  },
+  "PinpointAnalytics": {
+    "Default": {
+      "AppId": "331dd32852b14896a59a1c3f1f4b41ac",
+      "Region": "us-east-1"
+    }
+  },
+  "PinpointTargeting": {
+    "Default": {
+      "Region": "us-east-1"
+    }
+  }
+}
